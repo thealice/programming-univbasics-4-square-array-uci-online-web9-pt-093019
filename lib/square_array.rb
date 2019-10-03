@@ -1,9 +1,10 @@
-numbers = [1, 2, 3]
-def square_array(numbers)
+
+def square_array(array)
+  new_numbers = []
   counter = 0
-  while counter < numbers.length do
-    new_numbers = [numbers(0) ** numbers(0), numbers(1) ** numbers(1), numbers(2) ** numbers (2)]
-    puts new_numbers
+  while counter < array.length do
+    new_numbers << array(counter)  
     counter += 1
   end
+  puts new_numbers
 end
